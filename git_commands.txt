@@ -1,0 +1,96 @@
+
+GIT AND GITHUB ASSIGNMENT
+COMMAND DOCUMENTATION
+
+1. git --version
+   Checks the installed Git version.
+
+2. git init
+   Initializes a local Git repository.
+
+3. git branch -M main
+   Renames the current branch to main.
+
+4. git config --global user.name "Your Name"
+   Sets the Git commit username.
+
+5. git config --global user.email "your-email@example.com"
+   Sets the Git commit email.
+
+6. git config --global --list
+   Displays Git configuration.
+
+7. git status
+   Displays the current repository status.
+
+8. git add index.html about.html
+   Stages both HTML files.
+
+9. git commit -m "Initial commit: Add HTML files"
+   Creates the initial commit.
+
+10. git log --oneline
+    Displays commit history.
+
+11. git add index.html
+    Stages changes to the home page.
+
+12. git commit -m "Update home page content"
+    Commits the home page modifications.
+
+13. git branch feature
+    Creates a feature branch.
+
+14. git branch
+    Lists all local branches.
+
+15. git switch feature
+    Switches to the feature branch.
+
+16. git add about.html
+    Stages changes to the about page.
+
+17. git commit -m "Add project features to about page"
+    Commits feature branch changes.
+
+18. git switch main
+    Switches back to the main branch.
+
+19. git merge feature
+    Merges feature into main.
+
+20. git log --oneline --graph --all --decorate
+    Displays the commit graph and branch history.
+
+21. git status --ignored
+    Displays ignored files and repository status.
+
+22. git add .gitignore
+    Stages the .gitignore file.
+
+23. git commit -m "Add gitignore for log files and temp folder"
+    Commits the ignore configuration.
+
+24. git add undo-demo.txt
+    Stages the file used for the undo demonstration.
+
+25. git commit -m "Add file to demonstrate Git undo"
+    Creates an additional commit.
+
+26. git revert --no-edit HEAD
+    Reverses the latest commit while preserving history.
+
+27. git remote add origin <repository-url>
+    Connects the local repository to GitHub.
+
+28. git remote set-url origin <repository-url>
+    Updates the remote repository URL.
+
+29. git remote -v
+    Displays remote repository URLs.
+
+30. git push -u origin main
+    Pushes the main branch to GitHub.
+
+31. git push -u origin feature
+    Pushes the feature branch to GitHub.
